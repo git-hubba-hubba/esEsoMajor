@@ -25,6 +25,22 @@ npm start      # serves the build at http://127.0.0.1:4000
 
 The top-right **settings button** provides presentation identity and reset controls. **Change history** shows before/after values, actor, time, and export; global search finds tools across every section. See [DEMO_GUIDE.md](DEMO_GUIDE.md) for the account, walkthrough, avatar usage controls, and verification details. `npm run demo:seed` deliberately replaces the MongoDB demo snapshot when configured.
 
+## Deploy to Render
+
+Deploy the repository as one **Web Service**. Express serves both the built React app and `/api` routes. Keep the service root at the repository root so npm workspaces and `shared/` are available.
+
+Push this folder to a Git repository, then in Render choose **New → Blueprint** and connect that repository. The included `render.yaml` configures Node 22, the build, start command, and health check. Alternatively, create a Node web service manually with:
+
+- Root directory: leave blank.
+- Build command: `npm ci --include=dev && npm run build`.
+- Start command: `npm start`.
+- Health check path: `/api/health`.
+- Environment: `NODE_VERSION=22`, `NODE_ENV=production`.
+
+Render supplies `PORT`; the server listens on `0.0.0.0`. After deployment, open the service URL and verify `/api/health` returns `{"mode":"browser-demo"}` (or `mongodb` when connected). Device images are bundled from `frontend/public/devices/`.
+
+MongoDB is optional. To enable it, add `MONGODB_URI` in Render's environment settings and allow the service to reach the database. Without it, demo changes persist in each browser's localStorage. Configure optional LiveAvatar credentials as server environment variables using the names in `backend/.env.example`; do not upload `.env` files. LiveAvatar usage reservations are stored on the local filesystem and reset when Render replaces the instance; durable usage limits require persistent storage before enabling public avatar access.
+
 ## Squirrel Fund
 
 **Squirrel Fund** lets household members chip in $0.50–$25 at a time and opt into daily or weekly demo contributions with a monthly cap up to $100. Members can pause their schedule and return their unused contributions. The owner reviews and applies reserved funds to the bill; balances and change history update immediately. Scheduling checks run while the app is open and when reopened, using UTC dates without catching up missed payments. All contributions are simulated, with no bank, card, or payment-provider requests.

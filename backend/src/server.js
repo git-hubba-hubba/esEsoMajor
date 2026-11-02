@@ -24,6 +24,7 @@ app.get('/api/events',async(_,res)=>res.json(await Event.find().sort({createdAt:
 const dist=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../frontend/dist');
 app.use(express.static(dist));app.get('/{*path}',(_,res)=>res.sendFile(path.join(dist,'index.html')));
 app.use((err,req,res,next)=>{console.error(err.message);res.status(500).json({error:'Unable to complete request'});});
-const server=app.listen(process.env.PORT||4000,'127.0.0.1',()=>console.log('SSO+ API: http://127.0.0.1:'+(process.env.PORT||4000)));
+const port=process.env.PORT||4000,host=process.env.HOST||'0.0.0.0';
+const server=app.listen(port,host,()=>console.log(`SSO+ API listening on ${host}:${port}`));
 
 for(const signal of ['SIGINT','SIGTERM'])process.once(signal,async()=>{clearInterval(cleanup);if(avatar.active)await avatar.stop(avatar.active.handle).catch(()=>{});server.close();await mongoose.disconnect();process.exit(0);});
