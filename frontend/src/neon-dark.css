@@ -1,0 +1,65 @@
+/* Shared midnight palette. The historical theme ID preserves saved preferences.
+   Component colors are scoped by theme/dark-colors.mjs during Vite processing. */
+:root[data-theme="neon-dark"] {
+  color-scheme:dark;
+  --night-background-rgb:11 18 32; --night-background:rgb(var(--night-background-rgb));
+  --night-surface-rgb:19 30 48; --night-surface:rgb(var(--night-surface-rgb));
+  --night-raised-rgb:27 42 64; --night-raised:rgb(var(--night-raised-rgb));
+  --night-border-rgb:48 65 91; --night-border:rgb(var(--night-border-rgb));
+  --night-text-rgb:230 237 247; --night-text:rgb(var(--night-text-rgb));
+  --night-muted-rgb:167 182 204; --night-muted:rgb(var(--night-muted-rgb));
+  --night-blue-rgb:137 180 250; --night-blue:rgb(var(--night-blue-rgb));
+  --night-cyan:#75d9d0;
+  --night-brand-rgb:32 68 110; --night-brand:rgb(var(--night-brand-rgb));
+  --night-warm-rgb:232 187 126; --night-warm:rgb(var(--night-warm-rgb));
+  --night-warm-surface-rgb:52 42 32; --night-warm-surface:rgb(var(--night-warm-surface-rgb));
+  --night-success-rgb:135 207 175; --night-success:rgb(var(--night-success-rgb));
+  --night-success-surface-rgb:24 49 43; --night-success-surface:rgb(var(--night-success-surface-rgb));
+  --night-danger-rgb:241 160 167; --night-danger:rgb(var(--night-danger-rgb));
+  --night-danger-surface-rgb:56 32 44; --night-danger-surface:rgb(var(--night-danger-surface-rgb));
+  --night-shadow-rgb:0 0 0; --night-shadow:rgb(var(--night-shadow-rgb) / .24);
+  --night-backdrop-rgb:5 10 19; --night-backdrop:rgb(var(--night-backdrop-rgb) / .8);
+  --sapphire:var(--night-blue); --sapphire-deep:var(--night-brand);
+  --sapphire-ink:var(--night-text); --sapphire-soft:var(--night-raised);
+  --orange:var(--night-warm); --orange-soft:var(--night-warm-surface);
+  --silver:var(--night-border); --silver-soft:var(--night-background);
+  background:var(--night-background); color:var(--night-text); accent-color:var(--night-cyan);
+}
+:root[data-theme="neon-dark"] :is(body,.service-shell,.signup-shell,.service-workspace) {background:var(--night-background);color:var(--night-text)}
+:root[data-theme="neon-dark"] :is(.service-top,.signup-top,.service-sidebar,.signup-sidebar) {background:#0e192a;border-color:var(--night-border);box-shadow:none}
+:root[data-theme="neon-dark"] :is(.service-top,.signup-top) {border-bottom:1px solid var(--night-border)}
+:root[data-theme="neon-dark"] :is(.service-sidebar nav button,.service-sidebar nav .firstnet-nav) {background:transparent;border-color:transparent;color:var(--night-muted);box-shadow:none}
+:root[data-theme="neon-dark"] :is(.service-sidebar nav button:hover,.service-sidebar nav .firstnet-nav:hover) {background:var(--night-raised);color:var(--night-text)}
+:root[data-theme="neon-dark"] :is(.service-sidebar nav button.selected,.service-sidebar nav .firstnet-nav.selected) {background:#1b304a;border-color:var(--night-border);color:var(--night-text);box-shadow:inset 3px 0 var(--night-cyan)}
+:root[data-theme="neon-dark"] .service-sidebar nav button.selected svg {color:var(--night-cyan)}
+:root[data-theme="neon-dark"] :is(.account-panel,.priority-required,.priority-explore,.squirrel-card,.squirrel-stats>div,.rewards-household,.earn-activity-grid>article,.personal-reward-grid article,.reward-ledger,.store-plan,.store-feature,.store-bill-preview,.visual-panel,.modal,.squirrel-confirm,.reward-confirm) {background:var(--night-surface);border-color:var(--night-border);box-shadow:0 4px 18px #00000014}
+:root[data-theme="neon-dark"] :is(.section-feature-header,.rewards-hero,.squirrel-hero,.store-intro) {background:linear-gradient(115deg,#182b46,#1c3655);border-color:#304968;box-shadow:none}
+:root[data-theme="neon-dark"] :is(.section-feature-copy h2,.rewards-hero h2,.squirrel-hero h2,.store-intro h2) {color:var(--night-text)}
+:root[data-theme="neon-dark"] :is(.section-feature-copy p,.rewards-hero p,.squirrel-hero p,.store-intro p) {color:var(--night-muted)}
+:root[data-theme="neon-dark"] :is(.section-feature-copy .eyebrow,.rewards-hero .eyebrow,.squirrel-hero .eyebrow) {color:var(--night-cyan)}
+:root[data-theme="neon-dark"] :is(button,a,input,select,textarea,summary):focus-visible {outline:2px solid var(--night-cyan);outline-offset:4px}
+:root[data-theme="neon-dark"] :is(input,select,textarea) {color:var(--night-text);caret-color:var(--night-cyan)}
+:root[data-theme="neon-dark"] :is(input,textarea)::placeholder {color:var(--night-muted);opacity:1}
+:root[data-theme="neon-dark"] :is(.button.dark,.section-primary,.signup-entry,.signup-navigation .dark,.firstnet-metal-button,.firstnet-hub .button.dark,.firstnet-hub .firstnet-primary-link,.splash-enter) {background:var(--night-blue);border-color:var(--night-blue);color:#0b1729;box-shadow:none;text-shadow:none}
+:root[data-theme="neon-dark"] :is(.button.dark,.section-primary,.signup-entry,.signup-navigation .dark,.firstnet-metal-button,.firstnet-hub .button.dark,.firstnet-hub .firstnet-primary-link,.splash-enter):hover {background:#a6c8ff;border-color:#a6c8ff;color:#0b1729;box-shadow:none;filter:none}
+:root[data-theme="neon-dark"] :is(.button.dark,.section-primary,.firstnet-metal-button,.firstnet-primary-link) svg {color:inherit}
+:root[data-theme="neon-dark"] .button.white {background:var(--night-raised);border-color:#405470;color:var(--night-text);box-shadow:none}
+:root[data-theme="neon-dark"] .button.white:hover {background:#24354d;border-color:#607a9c}
+:root[data-theme="neon-dark"] button:disabled {opacity:.5;box-shadow:none;cursor:not-allowed}
+:root[data-theme="neon-dark"] :is(.household-wallets>button.active-wallet,.squirrel-presets>button[aria-pressed=true],.store-plan.selected,.store-feature.selected,.plan-option.current-plan,.signup-choice.chosen) {background:#1c324c;border-color:#6c9fce;box-shadow:inset 0 2px var(--night-cyan)}
+:root[data-theme="neon-dark"] :is(.visual-large-number,.balance-line>strong,.store-estimate>strong,.personal-wallet>strong,.squirrel-stats strong) {color:var(--night-text);text-shadow:none}
+:root[data-theme="neon-dark"] .section-experience {--section-accent:var(--night-blue)!important;--section-wash:var(--night-raised)!important}
+:root[data-theme="neon-dark"] .firstnet-hub {--fn-white:var(--night-text);--fn-muted:var(--night-muted);--fn-line:var(--night-border);background:linear-gradient(120deg,#152238,#1e3049 32%,#152238 66%,#1a2a40);border-color:#405470;box-shadow:inset 0 1px 0 #7e9bb32b,0 8px 26px #0002}
+:root[data-theme="neon-dark"] .firstnet-hero h2 span {background:linear-gradient(105deg,#d2deef,#8eaed5 50%,#cedced);background-clip:text;-webkit-text-fill-color:transparent}
+:root[data-theme="neon-dark"] :is(.firstnet-benefits article,.firstnet-tools article,.firstnet-tools article:first-child,.firstnet-quick-links>button,.firstnet-quick-links>a,.firstnet-steps article,.firstnet-faq details) {background:var(--night-surface);border-color:var(--night-border);box-shadow:inset 0 1px 0 #8eaed512}
+:root[data-theme="neon-dark"] :is(.firstnet-benefits article:hover,.firstnet-tools article:hover,.firstnet-quick-links>button:hover,.firstnet-quick-links>a:hover) {background:var(--night-raised);border-color:#607a9c}
+:root[data-theme="neon-dark"] .firstnet-view-switch button[aria-pressed=true] {color:var(--night-text)}
+:root[data-theme="neon-dark"] .firstnet-view-switch button[aria-pressed=true]:after {background:var(--night-cyan)}
+:root[data-theme="neon-dark"] .firstnet-filter>div button[aria-pressed=true] {background:#284563;border-color:#6c9fce;color:var(--night-text)}
+/* The emblem remains silver metal, with dark engraving for contrast. */
+:root[data-theme="neon-dark"] .firstnet-metal-disc {background:repeating-conic-gradient(from 15deg,#ffffff04 0deg 2deg,#00000004 2deg 4deg),conic-gradient(from 30deg,#e8eef6,#9cacbf 14%,#e2eaf4 24%,#7c8fa8 42%,#c3cedd 56%,#edf2f8 65%,#8b9db5 83%,#dce6f2);color:#1a2c43;border-color:#94a8c1;box-shadow:inset 0 0 0 5px #a9afb955,inset 0 0 0 7px #f1f3f888,0 12px 32px #0004}
+:root[data-theme="neon-dark"] .firstnet-metal-disc>small {color:#253c58}
+:root[data-theme="neon-dark"] .firstnet-metal-disc>svg {color:inherit}
+:root[data-theme="neon-dark"] .splash-screen {background:var(--night-background)}
+:root[data-theme="neon-dark"] .splash-nebula {background:radial-gradient(ellipse at 47% 42%,#355c8044,transparent 38%),radial-gradient(ellipse at 65% 40%,#43598333,transparent 32%)}
+:root[data-theme="neon-dark"] .splash-entry h1 span {color:var(--night-cyan)}

@@ -1,0 +1,3 @@
+.guide-person{border-radius:50%;object-fit:cover;object-position:center;aspect-ratio:1;flex-shrink:0}.guide-person.talking{outline:3px solid #f29c49;outline-offset:3px}
+.avatar-selector img.guide-person{width:36px;height:36px}.dialog-avatar-guide>img.guide-person{width:64px;height:64px}.signup-guide>img.guide-person{width:72px;height:72px}.guide-collapsed .inline-guide-avatar{width:58px}.inline-guide-avatar>img.guide-person{width:100%;height:auto;min-width:0}
+@media(max-width:560px){.avatar-selector img.guide-person{width:30px;height:30px}.dialog-avatar-guide>img.guide-person{width:52px;height:52px}.signup-guide>img.guide-person{width:58px;height:58px}.guide-collapsed .inline-guide-avatar{width:52px}}

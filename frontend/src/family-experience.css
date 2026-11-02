@@ -1,0 +1,92 @@
+/* Family photography and a shared spacing rhythm for the account experience. */
+.family-photo{position:relative;margin:0;min-width:0;overflow:hidden;background:#dce5ef;border-radius:18px;isolation:isolate}
+.family-photo img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 44%}
+.service-workspace{max-width:1512px;padding:clamp(26px,3.5vw,56px);margin-inline:auto}
+.service-breadcrumb{margin-bottom:24px}
+.service-heading{align-items:flex-end;gap:24px;margin-bottom:32px}
+.service-heading h1{font-size:clamp(28px,3vw,40px);letter-spacing:-1.3px;line-height:1.2;margin-top:10px}
+.service-heading p{font-size:13px;line-height:1.8;max-width:640px}
+.service-heading>.button{flex-shrink:0;margin-bottom:5px}
+.family-welcome{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);min-height:320px;border:1px solid #d6e0ee;border-radius:22px;overflow:hidden;margin-bottom:44px;background:#fff}
+.family-welcome-copy{align-self:center;padding:clamp(28px,4vw,56px)}
+.family-welcome-copy .eyebrow{font-size:9px;letter-spacing:1.8px;color:#416ca3}
+.family-welcome-copy h2{font-family:var(--app-font);font-size:clamp(28px,3vw,42px);line-height:1.16;letter-spacing:-1.4px;color:#163e79;margin:18px 0}
+.family-welcome-copy p{font-size:13px;line-height:1.9;max-width:390px;color:#5d7392;margin:0}
+.family-welcome>.family-photo{border-radius:0;min-height:320px}
+.has-family-photo{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:stretch;padding:0;gap:0;border-radius:22px;overflow:hidden;min-height:310px;margin-bottom:32px}
+.section-feature-header.has-family-photo .section-feature-copy,.has-family-photo>.family-intro-copy,.squirrel-hero.has-family-photo>div:first-child,.rewards-hero.has-family-photo>div:first-child{padding:clamp(28px,3.5vw,48px);max-width:none;align-self:center;min-width:0}
+.has-family-photo>.family-photo{border-radius:0;min-height:310px;height:100%;align-self:stretch}
+.section-feature-header.has-family-photo h2{font-size:clamp(27px,2.6vw,36px);line-height:1.25;max-width:540px;letter-spacing:-1px}
+.section-feature-header.has-family-photo p{font-size:12px;line-height:1.9;max-width:480px}
+.section-feature-header.has-family-photo .section-primary{font-size:11px;padding:13px 18px;margin-top:6px;min-height:44px}
+.squirrel-hero.has-family-photo h2{font-size:36px}
+.squirrel-hero.has-family-photo p{font-size:13px;line-height:1.9}
+.store-intro.has-family-photo h2{font-size:clamp(26px,2.7vw,36px);line-height:1.25}
+.store-intro.has-family-photo p{font-size:12px;line-height:1.9}
+.rewards-hero.has-family-photo{grid-template-rows:auto auto}
+.rewards-hero.has-family-photo>.family-photo{grid-column:2;grid-row:1/3}
+.rewards-hero.has-family-photo>div:first-child{padding-bottom:22px}
+.rewards-hero.has-family-photo>.personal-wallet{grid-column:1;grid-row:2;margin:0 clamp(28px,3.5vw,48px) 32px;padding:18px 22px;min-width:0;max-width:350px;background:#ffffff0b;align-self:start}
+.rewards-hero.has-family-photo h2{font-size:clamp(25px,2.5vw,33px);line-height:1.35}
+.rewards-hero.has-family-photo p{font-size:12px;line-height:1.9}
+.rewards-hero.has-family-photo .personal-wallet>strong{font-size:36px;margin:10px 0}
+.rewards-hero.has-family-photo .personal-wallet>small{max-width:none;font-size:10px}
+.firstnet-hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;padding:36px 0}
+.firstnet-hero>.firstnet-family-photo{min-height:300px;height:100%;border-radius:16px}
+.firstnet-hero p{font-size:13px;line-height:1.9}
+.navigation-hub>p{font-size:14px;line-height:1.8;margin-bottom:28px;max-width:690px}
+.navigation-hub-grid{gap:24px}
+.navigation-hub-grid>button{border-radius:18px;gap:16px;padding:24px;overflow:hidden}
+.navigation-hub-grid>button>b{font-size:18px;letter-spacing:-.4px}
+.navigation-hub-grid>button>p{font-size:12px;line-height:1.8}
+.navigation-hub-grid>button>.hub-open{margin-top:auto;padding-top:10px;font-size:11px}
+.account-search{margin:0 0 32px;min-height:52px;border-radius:12px}
+.account-search input{font-size:12px}
+.priority-layout,.account-overview-grid,.account-lower-grid,.section-content-grid,.squirrel-grid{gap:28px}
+.action-center{margin-bottom:40px}
+.priority-required,.priority-explore,.account-panel,.visual-panel,.squirrel-card{border-radius:18px;padding:28px}
+.action-center-heading{margin-bottom:26px}
+.priority-task{padding:24px 0}
+.priority-task p,.priority-explore>p{font-size:12px;line-height:1.85}
+.priority-section-title h3,.priority-explore h3{font-size:20px;letter-spacing:-.5px}
+.account-panel-title{margin-bottom:22px}
+.account-panel-title h2{font-size:20px}
+.account-details dl>div{padding-block:15px;font-size:12px}
+.section-experience,.squirrel-fund,.member-rewards,.feature-store{margin-bottom:40px}
+.earn-activity-grid,.personal-reward-grid,.store-plans,.visual-control-grid{gap:20px}
+.earn-activity-grid>article,.personal-reward-grid article,.store-plan,.store-feature{border-radius:16px;padding:24px}
+.rewards-heading{margin-top:36px;margin-bottom:22px}
+.rewards-heading h3,.rewards-household h3,.reward-ledger h3{font-size:21px;letter-spacing:-.5px}
+.earn-activity-grid h4{font-size:16px}
+.earn-activity-grid p,.personal-reward-grid p{font-size:12px;line-height:1.8}
+.support-help-intro{display:flex;justify-content:space-between;align-items:center;gap:28px;padding:30px;border:1px solid #d6e0ee;border-radius:18px;background:#fff;margin-bottom:28px}
+.support-help-intro h3{font-size:24px;letter-spacing:-.7px;margin:12px 0}
+.support-help-intro p{font-size:13px;line-height:1.8;max-width:520px}
+.support-help-intro>.button{flex-shrink:0}
+#account-guidance{margin-bottom:32px;scroll-margin-top:24px}
+#account-guidance .interactive-guide{padding:26px;border-radius:18px;margin:0}
+#account-guidance .inline-guide-top b{font-size:14px}
+#account-guidance .inline-guide-message{font-size:13px;line-height:1.85}
+.signup-help-toggle{display:inline-flex;color:#245b9f;font-size:12px;border:1px solid #c5d5eb;border-radius:24px;padding:10px 16px;margin-bottom:24px;min-height:42px;background:transparent}
+.signup-question{padding:clamp(28px,4vw,60px)}
+.signup-question h1{line-height:1.3;letter-spacing:-.8px}
+.signup-question-intro{font-size:14px;line-height:1.8}
+@media(min-width:1600px){.service-layout{grid-template-columns:240px minmax(0,1fr)}.service-sidebar{padding-top:38px}.service-sidebar nav button{padding-block:15px}}
+@media(max-width:1100px){.service-workspace{padding:30px}.has-family-photo{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}.family-welcome-copy{padding:32px}.has-family-photo>.family-photo{min-height:280px}.priority-layout,.account-overview-grid,.section-content-grid{gap:20px}.priority-required,.priority-explore,.account-panel,.visual-panel{padding:24px}.firstnet-hero{gap:24px}.firstnet-hero h2{font-size:38px}}
+@media(max-width:800px){.service-workspace{padding:28px 22px}.service-heading{margin-bottom:26px;align-items:flex-start}.service-heading h1{font-size:31px}.family-welcome{min-height:280px;grid-template-columns:1fr 1fr;margin-bottom:32px}.family-welcome>.family-photo{min-height:280px}.family-welcome-copy{padding:26px}.family-welcome-copy h2{font-size:30px}.has-family-photo{grid-template-columns:1fr 1fr}.section-feature-header.has-family-photo .section-feature-copy,.has-family-photo>.family-intro-copy,.squirrel-hero.has-family-photo>div:first-child,.rewards-hero.has-family-photo>div:first-child{padding:28px}.rewards-hero.has-family-photo>div:first-child{padding-bottom:20px}.rewards-hero.has-family-photo>.personal-wallet{margin-inline:28px}.has-family-photo h2{font-size:27px}.priority-layout,.account-overview-grid,.account-lower-grid{grid-template-columns:1fr}.support-help-intro{align-items:flex-start;flex-direction:column}.navigation-hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.navigation-hub-grid>button{padding:22px}.firstnet-hero{grid-template-columns:1fr 1fr}.firstnet-hero>.firstnet-family-photo{min-height:270px}.firstnet-hero h2{font-size:35px}}
+@media(max-width:600px){.service-workspace{padding:24px 16px}.service-heading{gap:16px;flex-wrap:wrap;margin-bottom:24px}.service-heading h1{font-size:29px}.service-heading>.button{font-size:10px}.service-breadcrumb{font-size:9px;margin-bottom:20px}.family-welcome,.has-family-photo{grid-template-columns:1fr;border-radius:18px}.family-welcome>.family-photo{grid-row:1;min-height:0;height:210px}.family-welcome-copy{padding:28px 24px}.family-welcome-copy h2{font-size:31px}.family-welcome-copy p{font-size:13px}.has-family-photo>.family-photo{min-height:0;height:210px;grid-row:1;grid-column:1}.section-feature-header.has-family-photo .section-feature-copy{padding:28px 24px;max-width:none}.section-feature-header.has-family-photo h2,.section-feature-header.has-family-photo p,.section-feature-header.has-family-photo .eyebrow{max-width:none;padding-right:0}.section-feature-header.has-family-photo h2{font-size:28px}.section-feature-header.has-family-photo p{font-size:12px}.rewards-hero.has-family-photo{grid-template-rows:auto auto auto}.rewards-hero.has-family-photo>.family-photo{grid-row:1;grid-column:1;height:220px}.rewards-hero.has-family-photo>div:first-child{grid-row:2;padding:28px 24px 20px}.rewards-hero.has-family-photo>.personal-wallet{grid-row:3;grid-column:1;margin:0 24px 28px;max-width:none}.squirrel-hero.has-family-photo>div:first-child,.has-family-photo>.family-intro-copy{padding:28px 24px}.has-family-photo .eyebrow{font-size:8px;line-height:1.8;letter-spacing:1.2px}.firstnet-hero{grid-template-columns:1fr;gap:26px;padding:28px 0}.firstnet-hero>.firstnet-family-photo{display:block;min-height:0;height:210px;grid-row:1;border-radius:14px}.firstnet-hero h2{font-size:36px}.firstnet-hero p{max-width:none;font-size:13px}.navigation-hub-grid{grid-template-columns:1fr;gap:20px}.priority-required,.priority-explore,.account-panel,.visual-panel,.squirrel-card{padding:24px 20px;border-radius:16px}.priority-layout,.account-overview-grid,.account-lower-grid,.squirrel-grid{gap:22px}.account-search{margin-bottom:26px}.support-help-intro{padding:24px}.support-help-intro>.button{white-space:normal}.earn-activity-grid,.personal-reward-grid{gap:18px}.signup-question{padding:28px 20px}#account-guidance .interactive-guide{padding:20px}}
+
+/* Utility destinations use quiet, relevant line art instead of recycled photos. */
+.section-feature-header.section-editorial-header{min-height:290px;gap:24px;padding:0;border-radius:22px;display:grid;grid-template-columns:minmax(0,1fr) 230px}
+.section-editorial-header .section-feature-copy{max-width:none;padding:40px;min-width:0}
+.section-editorial-header .section-feature-copy h2{font-size:clamp(27px,2.6vw,36px);max-width:560px;line-height:1.25}
+.section-editorial-header .section-feature-copy p{font-size:12px;line-height:1.9;max-width:480px}
+.family-section-art{position:relative;display:grid;place-items:center;align-self:stretch;min-height:230px;overflow:hidden;color:inherit}
+.family-art-orbit{position:absolute;width:190px;height:190px;border-radius:50%;border:1px solid #ffffff24}
+.family-art-orbit.second{width:275px;height:275px}
+.family-art-icon{display:grid;place-items:center;width:116px;height:116px;border:1px solid #ffffff38;border-radius:32px;background:#ffffff0a;color:#c7dcfa;transform:rotate(-8deg)}
+.family-art-icon svg{transform:rotate(8deg)}
+.family-art-dot{position:absolute;width:9px;height:9px;border-radius:50%;background:#e6ba83;right:28px;top:25%}
+.navigation-hub-grid>button>.hub-destination-icon{display:grid}
+@media(max-width:1100px){.section-feature-header.section-editorial-header{grid-template-columns:minmax(0,1fr) 180px}.section-editorial-header .section-feature-copy{padding:32px}.family-art-orbit{width:165px;height:165px}}
+@media(max-width:600px){.section-feature-header.section-editorial-header{grid-template-columns:minmax(0,1fr);gap:0;position:relative;min-height:260px}.section-editorial-header .section-feature-copy{padding:28px 24px}.section-editorial-header .section-feature-copy h2,.section-editorial-header .section-feature-copy p,.section-editorial-header .section-feature-copy .eyebrow{max-width:none}.section-editorial-header .section-feature-copy h2{font-size:28px}.section-editorial-header .family-section-art{display:none}}

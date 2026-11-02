@@ -1,0 +1,40 @@
+/* Shared copper detailing; keep these roles identical in both color schemes. */
+:root {
+  --peru:#cd853f;
+  --peru-soft:#f7eadb;
+  --peru-ink:#874b20;
+  --peru-on-blue:#e9b682;
+  --peru-line:color-mix(in srgb,var(--peru) 42%,transparent);
+  --peru-wash:color-mix(in srgb,var(--peru) 10%,transparent);
+}
+:root[data-theme="neon-dark"] {
+  --peru-soft:#30251f;
+  --peru-ink:#e9b682;
+  --peru-line:color-mix(in srgb,var(--peru) 54%,transparent);
+  --peru-wash:color-mix(in srgb,var(--peru) 13%,transparent);
+}
+/* :is gives these final details the same priority as the dark theme. */
+:is(:root,:root[data-theme]) :is(.service-top,.signup-top) {border-bottom:3px solid var(--peru)}
+:is(:root,:root[data-theme]) :is(.service-brand>span:nth-child(2),.signup-logo>span:nth-child(2),.splash-brand>span) {color:var(--peru-on-blue)}
+:is(:root,:root[data-theme]) :is(.service-sidebar nav button.selected,.service-sidebar nav .firstnet-nav.selected) {border-color:var(--peru-line);box-shadow:inset 3px 0 var(--peru)}
+:is(:root,:root[data-theme]) :is(.service-sidebar nav button.selected svg,.service-assistance>svg,.service-assistance button) {color:var(--peru-on-blue)}
+:is(:root,:root[data-theme]) :is(.family-welcome,.section-feature-header,.rewards-hero,.squirrel-hero,.store-intro,.firstnet-hub) {border-bottom:3px solid var(--peru)}
+:is(:root,:root[data-theme]) .family-photo:after {content:'';position:absolute;inset:0;border:1px solid var(--peru-line);border-radius:inherit;pointer-events:none}
+:is(:root,:root[data-theme]) :is(.priority-required,.balance-panel,.reward-next,.store-saved-banner,.submitted-setup-banner) {border-left:3px solid var(--peru)}
+:is(:root,:root[data-theme]) :is(.store-bill-preview,.personal-wallet,.rewards-household,.squirrel-stats>div,.modal,.squirrel-confirm,.rewards-confirm) {border-top:2px solid var(--peru)}
+:is(:root,:root[data-theme]) :is(.navigation-hub-grid>button,.earn-activity-grid>article,.personal-reward-grid article,.firstnet-benefits article,.firstnet-tools article) {border-color:var(--peru-line)}
+:is(:root,:root[data-theme]) :is(.navigation-hub-grid>button:hover,.earn-activity-grid>article:hover,.personal-reward-grid article:hover,.firstnet-benefits article:hover,.firstnet-tools article:hover) {border-color:var(--peru)}
+:is(:root,:root[data-theme]) :is(.button.white,.guided-task-options>button,.signup-help-toggle) {border-color:var(--peru-line)}
+:is(:root,:root[data-theme]) :is(.button.white:hover,.guided-task-options>button:hover,.signup-help-toggle:hover) {border-color:var(--peru);box-shadow:0 2px 8px var(--peru-wash)}
+:is(:root,:root[data-theme]) :is(.button.dark,.section-primary,.firstnet-metal-button,.firstnet-hub .firstnet-primary-link) {border-color:var(--peru);box-shadow:inset 0 -2px var(--peru)}
+:is(:root,:root[data-theme]) :is(.household-wallets>button.active-wallet,.squirrel-presets>button[aria-pressed=true],.store-plan.selected-plan,.store-feature.feature-on,.plan-option.current-plan,.signup-choice.chosen) {border-color:var(--peru);box-shadow:inset 0 3px var(--peru)}
+:is(:root,:root[data-theme]) :is(.reward-emblem,.priority-task-icon,.notification-symbol,.signup-choice-icon) {background:var(--peru-soft);color:var(--peru-ink);border-color:var(--peru-line)}
+:is(:root,:root[data-theme]) :is(.reward-price,.rewards-heading>span,.firstnet-kicker) {color:var(--peru-ink)}
+:is(:root,:root[data-theme]) :is(.reward-progress-track>i,.squirrel-coverage>i,.signup-progress-track>i,.family-art-dot) {background:var(--peru)}
+:is(:root,:root[data-theme]) .firstnet-view-switch button[aria-pressed=true]:after {background:var(--peru);height:3px}
+:is(:root,:root[data-theme]) :is(.service-heading h1,.rewards-heading h3,.action-center-heading h2) {text-decoration:underline;text-decoration-color:var(--peru);text-decoration-thickness:2px;text-underline-offset:9px;text-decoration-skip-ink:auto}
+:is(:root,:root[data-theme]) :is(button,a,input,select,textarea,summary):focus-visible {outline:2px solid var(--peru);outline-offset:4px}
+:is(:root,:root[data-theme]) :is(input,select,textarea):focus {border-color:var(--peru)}
+:is(:root,:root[data-theme]) .splash-satellite>div {border-color:var(--peru-line)}
+:is(:root,:root[data-theme]) :is(.splash-spark-one,.splash-spark-three) {color:var(--peru-on-blue)}
+:is(:root,:root[data-theme]) .splash-enter {border:1px solid var(--peru);box-shadow:0 3px 0 var(--peru)}

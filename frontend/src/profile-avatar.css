@@ -1,0 +1,27 @@
+.profile-avatar{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;flex-shrink:0;overflow:hidden;border-radius:50%;background:#e6edf7;color:#1755ad;font-size:12px;font-weight:600;vertical-align:middle}.profile-avatar img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;max-width:none}.service-profile .profile-avatar{width:32px;height:32px;padding:0}.family-profile-grid .profile-avatar{width:48px;height:48px}.map-member .profile-avatar{padding:0}.member-row .profile-avatar{width:44px;height:44px}
+
+.photo-picker h3{font-size:16px;margin-top:24px}.photo-preview{display:flex;align-items:center;gap:18px;background:#edf3ff;padding:20px;border-radius:12px;margin:20px 0}.photo-preview .profile-avatar{width:88px;height:88px;font-size:24px}.photo-preview>span{font-size:12px}.photo-choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.photo-choice-grid button{padding:10px;border:2px solid #d3dce9;border-radius:12px;background:white;color:#15356b}.photo-choice-grid button[aria-pressed=true]{border-color:#f29c49;background:#fff5e9}.photo-choice-grid img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:9px;display:block}.photo-choice-grid button span{display:block;font-size:11px;margin-top:8px}.photo-upload{display:flex;flex-direction:column;gap:10px;margin-top:24px;font-size:14px;font-weight:600}.photo-upload input{max-width:100%;font-size:12px}.photo-upload small,.photo-privacy{font-size:11px!important;line-height:1.7;font-weight:400}.photo-picker-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.photo-picker [role=alert]{color:#a63219;background:#fff0e8;padding:12px;border-radius:8px}.profile-photo-edit{display:block;margin:8px 0;font-size:11px}.photo-choice-grid button:focus-visible{outline:3px solid #1755ad;outline-offset:3px}
+
+.photo-choice-grid{max-height:350px;overflow-y:auto;padding:4px;scrollbar-gutter:stable;overscroll-behavior:contain}.photo-choice-grid button{min-width:0}.photo-choice-grid button[aria-pressed=true] span{font-weight:700}@media(min-width:600px){.photo-choice-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Account role colors follow the member, including custom photo uploads. */
+.profile-avatar.profile-avatar[data-profile-role="primary"]{--profile-color:#1755ad;--profile-tint:#e8f0ff;background:var(--profile-color)!important;color:white!important;border:3px solid var(--profile-color);box-sizing:border-box}
+.profile-avatar.profile-avatar[data-profile-role="member"]{--profile-color:#ed8c2b;--profile-tint:#fff1e3;background:var(--profile-color)!important;color:#542b0b!important;border:3px solid var(--profile-color);box-sizing:border-box}
+.member-row:has(.profile-avatar[data-profile-role="primary"]){background:#e8f0ff;border-radius:12px;padding-left:12px;padding-right:12px}
+.member-row:has(.profile-avatar[data-profile-role="member"]){background:#fff1e3;border-radius:12px;padding-left:12px;padding-right:12px}
+.photo-preview:has(.profile-avatar[data-profile-role="primary"]){background:#e8f0ff}
+.photo-preview:has(.profile-avatar[data-profile-role="member"]){background:#fff1e3}
+.family-profile-grid>button:has(.profile-avatar[data-profile-role="primary"]),.household-wallets>button:has(.profile-avatar[data-profile-role="primary"]){background:#e8f0ff}
+.family-profile-grid>button:has(.profile-avatar[data-profile-role="member"]),.household-wallets>button:has(.profile-avatar[data-profile-role="member"]){background:#fff1e3}
+.squirrel-member:has(.profile-avatar[data-profile-role="primary"]){background:#e8f0ff;padding-left:12px;padding-right:12px;border-radius:10px}
+.squirrel-member:has(.profile-avatar[data-profile-role="member"]){background:#fff1e3;padding-left:12px;padding-right:12px;border-radius:10px}
+
+/* Larger portraits make household profiles easier to recognize. */
+.profile-avatar.profile-avatar{width:52px;height:52px;font-size:17px}
+.service-profile .profile-avatar.profile-avatar{width:44px;height:44px}
+.member-row .profile-avatar.profile-avatar{width:76px;height:76px;font-size:23px}
+.family-profile-grid .profile-avatar.profile-avatar{width:64px;height:64px}
+.household-stack>button>.profile-avatar,.household-wallets>button>.profile-avatar,.squirrel-member>.profile-avatar{width:52px;height:52px;font-size:16px}
+.photo-preview .profile-avatar.profile-avatar{width:120px;height:120px;font-size:32px}
+.map-member .profile-avatar.profile-avatar{width:48px;height:48px}
+@media(max-width:560px){.member-row .profile-avatar.profile-avatar{width:64px;height:64px}.family-profile-grid .profile-avatar.profile-avatar{width:56px;height:56px}.household-wallets>button>.profile-avatar,.squirrel-member>.profile-avatar{width:46px;height:46px}.photo-preview .profile-avatar.profile-avatar{width:104px;height:104px}.member-row>div{flex:1;min-width:140px}.member-row>.button{margin-left:auto}.service-top-actions{gap:9px}.photo-choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

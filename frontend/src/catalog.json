@@ -1,0 +1,969 @@
+[
+  {
+    "id": "account-management",
+    "name": "Account & Profile Management",
+    "features": [
+      {
+        "id": "account-01",
+        "name": "View Accounts",
+        "description": "View wireless and internet accounts.",
+        "keywords": [
+          "account",
+          "overview",
+          "services"
+        ]
+      },
+      {
+        "id": "account-02",
+        "name": "Multiple Services",
+        "description": "Manage multiple eligible AT&T services.",
+        "keywords": [
+          "multiple",
+          "services",
+          "linked accounts"
+        ]
+      },
+      {
+        "id": "account-03",
+        "name": "Account Details",
+        "description": "View account and service information.",
+        "keywords": [
+          "details",
+          "account information"
+        ]
+      },
+      {
+        "id": "account-04",
+        "name": "Registration & Login",
+        "description": "Create an AT&T user ID and sign in.",
+        "keywords": [
+          "register",
+          "login",
+          "sign in"
+        ]
+      },
+      {
+        "id": "account-05",
+        "name": "Credential Recovery",
+        "description": "Recover a forgotten user ID or password.",
+        "keywords": [
+          "forgot password",
+          "reset",
+          "username"
+        ]
+      },
+      {
+        "id": "account-06",
+        "name": "Profile Settings",
+        "description": "Manage account profile and preferences.",
+        "keywords": [
+          "profile",
+          "settings",
+          "preferences"
+        ]
+      },
+      {
+        "id": "account-07",
+        "name": "Account Access",
+        "description": "Manage supported user-level account access.",
+        "keywords": [
+          "permissions",
+          "access",
+          "users"
+        ]
+      },
+      {
+        "id": "account-08",
+        "name": "Service Features",
+        "description": "Review account-specific services and features.",
+        "keywords": [
+          "features",
+          "subscriptions",
+          "services"
+        ]
+      },
+      {
+        "id": "account-09",
+        "name": "Account Alerts",
+        "description": "Receive account notifications and alerts.",
+        "keywords": [
+          "alerts",
+          "notifications",
+          "updates"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "billing-payments",
+    "name": "Billing & Payments",
+    "features": [
+      {
+        "id": "billing-01",
+        "name": "View Bill",
+        "description": "View the current bill.",
+        "keywords": [
+          "bill",
+          "balance",
+          "statement"
+        ]
+      },
+      {
+        "id": "billing-02",
+        "name": "Payment Due Date",
+        "description": "Check the payment due date.",
+        "keywords": [
+          "due date",
+          "payment deadline"
+        ]
+      },
+      {
+        "id": "billing-03",
+        "name": "Make Payment",
+        "description": "Submit a bill payment.",
+        "keywords": [
+          "pay",
+          "payment",
+          "balance"
+        ]
+      },
+      {
+        "id": "billing-04",
+        "name": "AutoPay Enrollment",
+        "description": "Set up automatic payments.",
+        "keywords": [
+          "autopay",
+          "automatic payment"
+        ]
+      },
+      {
+        "id": "billing-05",
+        "name": "AutoPay Management",
+        "description": "Manage AutoPay settings.",
+        "keywords": [
+          "autopay",
+          "manage",
+          "payment method"
+        ]
+      },
+      {
+        "id": "billing-06",
+        "name": "Billing Details",
+        "description": "View bill charges and details.",
+        "keywords": [
+          "charges",
+          "fees",
+          "bill breakdown"
+        ]
+      },
+      {
+        "id": "billing-07",
+        "name": "Billing Support",
+        "description": "Access billing explanations and assistance.",
+        "keywords": [
+          "billing help",
+          "charges",
+          "support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wireless-services",
+    "name": "Wireless Plans & Services",
+    "features": [
+      {
+        "id": "wireless-01",
+        "name": "View Plans",
+        "description": "View wireless plan details.",
+        "keywords": [
+          "wireless",
+          "plan",
+          "rate"
+        ]
+      },
+      {
+        "id": "wireless-02",
+        "name": "Compare Plans",
+        "description": "Compare available wireless plans.",
+        "keywords": [
+          "compare",
+          "plans",
+          "pricing"
+        ]
+      },
+      {
+        "id": "wireless-03",
+        "name": "Change Plan",
+        "description": "Change eligible wireless plans.",
+        "keywords": [
+          "change plan",
+          "upgrade",
+          "downgrade"
+        ]
+      },
+      {
+        "id": "wireless-04",
+        "name": "Manage Add-ons",
+        "description": "Manage eligible plan add-ons.",
+        "keywords": [
+          "addons",
+          "features",
+          "subscriptions"
+        ]
+      },
+      {
+        "id": "wireless-05",
+        "name": "International Options",
+        "description": "Explore international connectivity options.",
+        "keywords": [
+          "international",
+          "roaming",
+          "travel"
+        ]
+      },
+      {
+        "id": "wireless-06",
+        "name": "Early Upgrades",
+        "description": "Explore early device-upgrade options.",
+        "keywords": [
+          "upgrade",
+          "next up",
+          "device"
+        ]
+      },
+      {
+        "id": "wireless-07",
+        "name": "Device Protection",
+        "description": "Manage eligible device protection options.",
+        "keywords": [
+          "insurance",
+          "protection",
+          "coverage"
+        ]
+      },
+      {
+        "id": "wireless-08",
+        "name": "Suspend Service",
+        "description": "Suspend eligible wireless service.",
+        "keywords": [
+          "suspend",
+          "pause",
+          "lost phone"
+        ]
+      },
+      {
+        "id": "wireless-09",
+        "name": "Change Phone Number",
+        "description": "Request an eligible wireless number change.",
+        "keywords": [
+          "phone number",
+          "number change"
+        ]
+      },
+      {
+        "id": "wireless-10",
+        "name": "NumberSync",
+        "description": "Manage supported NumberSync services.",
+        "keywords": [
+          "numbersync",
+          "smartwatch",
+          "sync"
+        ]
+      },
+      {
+        "id": "wireless-11",
+        "name": "Refresh Connection",
+        "description": "Access mobile network connection troubleshooting.",
+        "keywords": [
+          "network",
+          "refresh",
+          "signal"
+        ]
+      },
+      {
+        "id": "wireless-12",
+        "name": "Manage Lines",
+        "description": "View phone numbers and wireless lines.",
+        "keywords": [
+          "lines",
+          "phone numbers",
+          "users"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "device-management",
+    "name": "Device Management",
+    "features": [
+      {
+        "id": "device-01",
+        "name": "Smartphones & Tablets",
+        "description": "View account smartphones and tablets.",
+        "keywords": [
+          "phone",
+          "tablet",
+          "devices"
+        ]
+      },
+      {
+        "id": "device-02",
+        "name": "Smartwatches",
+        "description": "View supported connected smartwatches.",
+        "keywords": [
+          "watch",
+          "wearable",
+          "device"
+        ]
+      },
+      {
+        "id": "device-03",
+        "name": "Internet Equipment",
+        "description": "View home internet equipment.",
+        "keywords": [
+          "router",
+          "gateway",
+          "modem"
+        ]
+      },
+      {
+        "id": "device-04",
+        "name": "Wi-Fi Extenders",
+        "description": "Manage eligible Wi-Fi extenders.",
+        "keywords": [
+          "wifi",
+          "extender",
+          "coverage"
+        ]
+      },
+      {
+        "id": "device-05",
+        "name": "Device Information",
+        "description": "Review individual device information.",
+        "keywords": [
+          "device details",
+          "equipment"
+        ]
+      },
+      {
+        "id": "device-06",
+        "name": "Device Groups",
+        "description": "Organize supported devices into groups.",
+        "keywords": [
+          "groups",
+          "organize",
+          "devices"
+        ]
+      },
+      {
+        "id": "device-07",
+        "name": "Device Profiles",
+        "description": "Assign supported devices to profiles.",
+        "keywords": [
+          "profiles",
+          "assign",
+          "devices"
+        ]
+      },
+      {
+        "id": "device-08",
+        "name": "Group Settings",
+        "description": "Apply supported device-group settings.",
+        "keywords": [
+          "group controls",
+          "settings"
+        ]
+      },
+      {
+        "id": "device-09",
+        "name": "Device Usage",
+        "description": "View supported connected devices sorted by usage.",
+        "keywords": [
+          "usage",
+          "connected devices"
+        ]
+      },
+      {
+        "id": "device-10",
+        "name": "Device Support",
+        "description": "Find device troubleshooting and support options.",
+        "keywords": [
+          "troubleshoot",
+          "device help"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "usage-monitoring",
+    "name": "Data & Usage Monitoring",
+    "features": [
+      {
+        "id": "usage-01",
+        "name": "Wireless Data Usage",
+        "description": "View wireless data usage.",
+        "keywords": [
+          "data",
+          "usage",
+          "wireless"
+        ]
+      },
+      {
+        "id": "usage-02",
+        "name": "Internet Usage",
+        "description": "View supported internet usage information.",
+        "keywords": [
+          "internet",
+          "usage",
+          "broadband"
+        ]
+      },
+      {
+        "id": "usage-03",
+        "name": "Usage by Device",
+        "description": "Review supported device-level usage.",
+        "keywords": [
+          "device usage",
+          "consumption"
+        ]
+      },
+      {
+        "id": "usage-04",
+        "name": "Connected Device Monitoring",
+        "description": "Monitor connected home-network devices.",
+        "keywords": [
+          "connected",
+          "network",
+          "monitor"
+        ]
+      },
+      {
+        "id": "usage-05",
+        "name": "Voice & Text Usage",
+        "description": "Review available voice and text usage information.",
+        "keywords": [
+          "calls",
+          "texts",
+          "usage"
+        ]
+      },
+      {
+        "id": "usage-06",
+        "name": "Consumption Tracking",
+        "description": "Track available device-level consumption information.",
+        "keywords": [
+          "tracking",
+          "data consumption"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "home-internet",
+    "name": "Home Internet & Network Controls",
+    "features": [
+      {
+        "id": "internet-01",
+        "name": "Internet Connections",
+        "description": "View supported home internet connections.",
+        "keywords": [
+          "internet",
+          "connection",
+          "fiber"
+        ]
+      },
+      {
+        "id": "internet-02",
+        "name": "Connected Devices",
+        "description": "View devices connected to the home network.",
+        "keywords": [
+          "wifi",
+          "connected devices"
+        ]
+      },
+      {
+        "id": "internet-03",
+        "name": "Self Installation",
+        "description": "Self-install eligible internet services.",
+        "keywords": [
+          "install",
+          "setup",
+          "activation"
+        ]
+      },
+      {
+        "id": "internet-04",
+        "name": "Installation Guidance",
+        "description": "Follow internet equipment installation instructions.",
+        "keywords": [
+          "installation",
+          "setup",
+          "guide"
+        ]
+      },
+      {
+        "id": "internet-05",
+        "name": "Speed Test",
+        "description": "Run supported internet speed tests.",
+        "keywords": [
+          "speed",
+          "bandwidth",
+          "performance"
+        ]
+      },
+      {
+        "id": "internet-06",
+        "name": "Network Health",
+        "description": "Run supported network health checks.",
+        "keywords": [
+          "network health",
+          "diagnostics"
+        ]
+      },
+      {
+        "id": "internet-07",
+        "name": "Internet Access Controls",
+        "description": "Manage supported device internet access.",
+        "keywords": [
+          "access",
+          "pause internet",
+          "wifi"
+        ]
+      },
+      {
+        "id": "internet-08",
+        "name": "Downtime Rules",
+        "description": "Set supported device or group downtime.",
+        "keywords": [
+          "downtime",
+          "schedule",
+          "pause"
+        ]
+      },
+      {
+        "id": "internet-09",
+        "name": "Internet Backup",
+        "description": "Manage eligible internet backup features.",
+        "keywords": [
+          "backup",
+          "failover",
+          "internet"
+        ]
+      },
+      {
+        "id": "internet-10",
+        "name": "Connectivity Troubleshooting",
+        "description": "Troubleshoot network connectivity problems.",
+        "keywords": [
+          "troubleshoot",
+          "offline",
+          "connection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "security-privacy",
+    "name": "Security & Privacy",
+    "features": [
+      {
+        "id": "security-01",
+        "name": "Security Dashboard",
+        "description": "Access supported mobile security controls.",
+        "keywords": [
+          "security",
+          "dashboard",
+          "protection"
+        ]
+      },
+      {
+        "id": "security-02",
+        "name": "Spam Call Blocking",
+        "description": "Manage supported spam call blocking.",
+        "keywords": [
+          "spam",
+          "block calls"
+        ]
+      },
+      {
+        "id": "security-03",
+        "name": "Fraud Call Blocking",
+        "description": "Manage suspected fraud call blocking.",
+        "keywords": [
+          "fraud",
+          "scam",
+          "block"
+        ]
+      },
+      {
+        "id": "security-04",
+        "name": "Voicemail Routing",
+        "description": "Route supported unwanted calls to voicemail.",
+        "keywords": [
+          "voicemail",
+          "unwanted calls"
+        ]
+      },
+      {
+        "id": "security-05",
+        "name": "ActiveArmor",
+        "description": "Review supported AT&T ActiveArmor features.",
+        "keywords": [
+          "activearmor",
+          "security",
+          "protection"
+        ]
+      },
+      {
+        "id": "security-06",
+        "name": "Wireless Account Lock",
+        "description": "Enable or disable eligible Wireless Account Lock.",
+        "keywords": [
+          "account lock",
+          "security",
+          "lock"
+        ]
+      },
+      {
+        "id": "security-07",
+        "name": "Transaction Restrictions",
+        "description": "Restrict certain account changes using eligible security controls.",
+        "keywords": [
+          "restriction",
+          "transaction",
+          "protection"
+        ]
+      },
+      {
+        "id": "security-08",
+        "name": "Network Security",
+        "description": "Monitor available network security features.",
+        "keywords": [
+          "network",
+          "security",
+          "threats"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "family-controls",
+    "name": "Family & Location Controls",
+    "features": [
+      {
+        "id": "family-01",
+        "name": "Family Device Groups",
+        "description": "Create supported family device groups.",
+        "keywords": [
+          "family",
+          "groups",
+          "devices"
+        ]
+      },
+      {
+        "id": "family-02",
+        "name": "Family Profiles",
+        "description": "Assign supported devices to profiles.",
+        "keywords": [
+          "family",
+          "profiles",
+          "assign"
+        ]
+      },
+      {
+        "id": "family-03",
+        "name": "Content Controls",
+        "description": "Manage supported content access settings.",
+        "keywords": [
+          "parental",
+          "content",
+          "restrictions"
+        ]
+      },
+      {
+        "id": "family-04",
+        "name": "Internet Downtime",
+        "description": "Apply supported internet downtime rules.",
+        "keywords": [
+          "downtime",
+          "family",
+          "schedule"
+        ]
+      },
+      {
+        "id": "family-05",
+        "name": "Location Sharing",
+        "description": "Access supported location-sharing features.",
+        "keywords": [
+          "location",
+          "sharing",
+          "family"
+        ]
+      },
+      {
+        "id": "family-06",
+        "name": "Shared Locations",
+        "description": "View supported shared device locations.",
+        "keywords": [
+          "location",
+          "map",
+          "tracking"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shopping-upgrades",
+    "name": "Shopping & Upgrades",
+    "features": [
+      {
+        "id": "shopping-01",
+        "name": "Browse Devices",
+        "description": "Browse phones and eligible devices.",
+        "keywords": [
+          "shop",
+          "phones",
+          "devices"
+        ]
+      },
+      {
+        "id": "shopping-02",
+        "name": "Accessories",
+        "description": "Browse device accessories.",
+        "keywords": [
+          "accessories",
+          "shop"
+        ]
+      },
+      {
+        "id": "shopping-03",
+        "name": "Wireless Plan Comparison",
+        "description": "Compare available wireless plans.",
+        "keywords": [
+          "plans",
+          "compare",
+          "wireless"
+        ]
+      },
+      {
+        "id": "shopping-04",
+        "name": "Fiber Plans",
+        "description": "Compare available fiber internet plans.",
+        "keywords": [
+          "fiber",
+          "internet",
+          "plans"
+        ]
+      },
+      {
+        "id": "shopping-05",
+        "name": "Promotions",
+        "description": "View eligible personalized promotions.",
+        "keywords": [
+          "deals",
+          "offers",
+          "promotions"
+        ]
+      },
+      {
+        "id": "shopping-06",
+        "name": "Upgrade Eligibility",
+        "description": "Check supported device upgrade options.",
+        "keywords": [
+          "upgrade",
+          "eligibility"
+        ]
+      },
+      {
+        "id": "shopping-07",
+        "name": "Device Purchase",
+        "description": "Purchase eligible devices.",
+        "keywords": [
+          "buy",
+          "purchase",
+          "order"
+        ]
+      },
+      {
+        "id": "shopping-08",
+        "name": "Additional Services",
+        "description": "Explore additional available services.",
+        "keywords": [
+          "services",
+          "addons",
+          "features"
+        ]
+      },
+      {
+        "id": "shopping-09",
+        "name": "Store Locator",
+        "description": "Find nearby AT&T stores.",
+        "keywords": [
+          "store",
+          "location",
+          "retail"
+        ]
+      },
+      {
+        "id": "shopping-10",
+        "name": "Wireless Trial",
+        "description": "Explore eligible wireless trial options.",
+        "keywords": [
+          "trial",
+          "try wireless",
+          "network"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-support",
+    "name": "AI Assistance & Customer Support",
+    "features": [
+      {
+        "id": "support-01",
+        "name": "Andi AI Assistant",
+        "description": "Chat with AT&T's AI assistant.",
+        "keywords": [
+          "andi",
+          "AI",
+          "chatbot"
+        ]
+      },
+      {
+        "id": "support-02",
+        "name": "Billing Questions",
+        "description": "Ask questions about billing.",
+        "keywords": [
+          "AI billing",
+          "bill help"
+        ]
+      },
+      {
+        "id": "support-03",
+        "name": "Plan Explanations",
+        "description": "Get explanations of supported plans.",
+        "keywords": [
+          "plan help",
+          "AI",
+          "explain"
+        ]
+      },
+      {
+        "id": "support-04",
+        "name": "Device Recommendations",
+        "description": "Receive device shopping guidance.",
+        "keywords": [
+          "recommendation",
+          "phone",
+          "AI"
+        ]
+      },
+      {
+        "id": "support-05",
+        "name": "Guided Plan Comparison",
+        "description": "Compare plans with guided assistance.",
+        "keywords": [
+          "compare",
+          "AI",
+          "plans"
+        ]
+      },
+      {
+        "id": "support-06",
+        "name": "Troubleshooting Instructions",
+        "description": "Access troubleshooting instructions.",
+        "keywords": [
+          "troubleshooting",
+          "help",
+          "fix"
+        ]
+      },
+      {
+        "id": "support-07",
+        "name": "Support Articles",
+        "description": "Find self-service support information.",
+        "keywords": [
+          "articles",
+          "knowledge base",
+          "support"
+        ]
+      },
+      {
+        "id": "support-08",
+        "name": "Account Task Guidance",
+        "description": "Get guidance for supported account tasks.",
+        "keywords": [
+          "account help",
+          "AI",
+          "assistance"
+        ]
+      },
+      {
+        "id": "support-09",
+        "name": "24/7 Chat Assistance",
+        "description": "Access available round-the-clock chat guidance.",
+        "keywords": [
+          "24/7",
+          "chat",
+          "support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "notifications-status",
+    "name": "Notifications & Status",
+    "features": [
+      {
+        "id": "notification-01",
+        "name": "Account Notifications",
+        "description": "Receive account notifications.",
+        "keywords": [
+          "account",
+          "notifications"
+        ]
+      },
+      {
+        "id": "notification-02",
+        "name": "Service Updates",
+        "description": "Receive service-related updates.",
+        "keywords": [
+          "service",
+          "updates",
+          "status"
+        ]
+      },
+      {
+        "id": "notification-03",
+        "name": "Alerts",
+        "description": "Review available alerts.",
+        "keywords": [
+          "alerts",
+          "warnings"
+        ]
+      },
+      {
+        "id": "notification-04",
+        "name": "Connectivity Information",
+        "description": "Review available connection status information.",
+        "keywords": [
+          "connectivity",
+          "network",
+          "status"
+        ]
+      },
+      {
+        "id": "notification-05",
+        "name": "Service Issue Guidance",
+        "description": "Get guidance for service issues.",
+        "keywords": [
+          "outage",
+          "issue",
+          "troubleshoot"
+        ]
+      }
+    ]
+  }
+]
